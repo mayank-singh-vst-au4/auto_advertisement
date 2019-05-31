@@ -1,0 +1,24 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.0",
+    "mysql": "^2.16.0",
+    "sendotp": "^1.2.9",
+    "session-file-store": "^1.1.2",
+    "uuid": "^3.1.0"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Documents/Auto_business/form_node_exp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:server": "nodemon --ignore sessions/ form_node_exp.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
